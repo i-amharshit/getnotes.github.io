@@ -1,0 +1,155 @@
+body{
+    overflow-x: hidden;
+}
+p{
+    color:#8f8f8f;
+  }
+.container-fluid {
+    padding: 1% 8% !important;
+}
+#title {
+    background-color: #6C00FF;
+    padding-bottom:10rem;
+}
+/* navbar */
+.navbar {
+    margin: 0 0 2rem 0;
+}
+
+.nav-link {
+    font: weight 400px;
+    font-size: 1.2rem !important;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    color:black;
+    font-size: 2.8rem !important;
+    font-weight: bold;
+
+}
+
+.navbar-brand:hover {
+    color:gold;
+}
+
+.nav-item {
+    padding: 0 6px;
+}
+
+.nav-link {
+    color:#FFC93C;
+    font-size: 1.2rem !important;
+}
+
+/* dropdown */
+.dropdown-btn{
+    color:#FFC93C;
+    background-color: #6C00FF !important;
+}
+.dropdown-item{
+    cursor: pointer;
+}
+.dropdown-item:hover{
+    text-decoration: underline crimson;
+}
+.pyq{
+    cursor: pointer;
+}
+
+.main-text {
+    margin-top:120px;
+    font-family: "Russo One", "sans-serif";
+    color: whitesmoke;
+    text-shadow: 3px 0 black;
+    font-size: 2.56rem;
+    line-height: 1;
+}
+/* second section */
+
+.bca {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: #5BC0F8;
+    margin: 1% 530px 0 530px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+@media(max-width:900px) {
+    .bca {
+        margin: 1% 12.67rem 0 12.67rem;
+    }
+
+}
+
+.line {
+    border-color: #0A2647;
+    margin: 0 0 0 10%;
+    width: 80%;
+    border-width: 3px;
+    text-align: center;
+}
+/* SUBJECT TABLE */
+.card1{
+    border: 2px solid #404B69;
+}
+.subject-table{
+    padding: 0 60px 0 60px !important;
+}
+.card{
+    text-align:center;
+}
+.sem-text{
+    padding:2% 0 0 2%;
+}
+.line2{
+    position:relative;
+    top:10px;
+    border-color: #0A2647;
+    margin: 0 0 0 10%;
+    width: 80%;
+    border-width: 3px;
+    text-align: center;
+}
+
+/* PDF butttons */
+.btn{
+    background-color: #8D9EFF;
+    margin-top: 8px !important;
+}
+.btn:hover{
+    transform:scale(1.1);
+    opacity: 1;
+    background-color: black;
+}
+.btn--outline{
+    border: 1px solid #FFC93C !important;
+}
+
+/* go to top button */
+#topButton{
+    position:fixed;
+   right:5px;
+   bottom:5px;
+  z-index: 1;
+  border-radius: 30%;
+  background-color:transparent;
+}
+#topButton:hover{
+    background-color:royalblue;
+}
+
+/* footer */
+#end-section{
+    margin-top:3px ;
+    padding:1%;
+    background-color:#0A2647;
+    text-align: center;
+}
+.icon{
+    color: #5BC0F8;
+}
+.fa{
+    color: white;
+}
