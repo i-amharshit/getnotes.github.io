@@ -79,6 +79,9 @@ p{
 @media(max-width:900px) {
     .bca {
         margin: 1% 12.67rem 0 12.67rem;
+        position: relative;
+        right:26px;
+        color:#6C00FF;
     }
 
 }
